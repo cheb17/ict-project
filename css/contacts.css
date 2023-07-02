@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+}
+
+/* IG LINK */
+/* https://www.w3schools.com/css/css_link.asp */
+.link:link {
+    color: #A0A0A0;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #41B877;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #13983A;
+    text-decoration: none;
+}
+
+.link:active {
+    color: #A0A0A0;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+nav{
+    padding: 100px;
+    font-size: 25px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* CONTAINER */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col {
+    font-size: 20px;
+}
+
+.mainshoe {
+    height: 600px;
+    width: 600px;
+    /* if they ask how you did the shadow, it's this "filter" */
+    /* it's different from the box-shadow */
+    /* the filter one automatically puts a shadow on the shape of your image */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow read this */
+    filter: drop-shadow(-40px 30px 0.75rem #A0A0A0);
+}
+
+/* FOOTER */
+.card-footer {
+    position: relative;
+    text-align: center;
+}
+
+.bg {
+    background-color: #C8C8C8;
+    font-size: 15px;
+    margin-top: 77px;
+    padding: 10px;
+}

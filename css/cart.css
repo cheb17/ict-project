@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    text-align: center;
+}
+
+/* NAVBAR */
+nav{
+    padding: 100px;
+    font-size: 25px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/*cart*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th{
+    text-align: left;
+    padding: 5px;
+    color: #000;
+    background: #5A5A5A;
+    font-weight: normal;
+  }
+  td{
+    padding: 10px 5px;
+  }
+  td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+  }
+  td a{
+    border: 1px solid; 
+    padding: 1px;
+    color: white;
+    font-size: 12px; 
+  }
+  td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  td:last-child{
+    text-align: right;
+  }
+  th:last-child{
+    text-align: right;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  .cart-page{
+    margin: 80px ;
+  }
+  .cart-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .total-price{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .total-price table{
+    border-top: 2px solid #5A5A5A;
+    width: 100%;
+    max-width: 300px;
+  }
+  .row{
+    display: flex;
+  }
+  .col-5{
+    flex: 33%;
+    width: 10px;
+  }
+  .col-5 img{
+    margin-left: 40%;
+    width: 25%;
+    cursor: pointer;
+    filter:grayscale(100%);
+  }
+  .col-5 img:hover{
+    filter:grayscale(0);
+    align-items: center;
+  }
+  .page a{
+    text-decoration: none;
+    color:#5A5A5A;
+  
+  }
+
+/* FOOTER */
+.card-footer{
+    margin-top: 8vh; 
+    position: relative;
+    text-align: center;
+}
+
+.bg{
+    background-color: #C8C8C8;
+    font-size: 15px;
+    margin-top: 2vh; /* Adjust the margin to create space from the top */
+    padding: 10px;
+}
